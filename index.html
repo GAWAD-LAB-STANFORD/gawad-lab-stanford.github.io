@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="w3_styles_2.css" rel="stylesheet" type="text/css">
-	<link href="assets/favicon.ico" rel="shortcut icon">
+	<link href="assets/lab_logo_favicon.ico" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500&display=swap" rel="stylesheet"> 
 	<meta property="og:title" content="Gawad Lab Website" />
     <meta property="og:image" content="assets/lab_logo_magnifying_graphs.png">
@@ -21,27 +21,110 @@
 <body>
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:1px;">
+        <a href="#home" class="w3-bar-item w3-button">Stanford</a>
+        <!-- Right-sided navbar links. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="#research" class="w3-bar-item w3-button">Research</a>
+            <a href="#software" class="w3-bar-item w3-button">Software</a>
+            <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+            <a href="#team" class="w3-bar-item w3-button">Team</a>
+            <a href="#location" class="w3-bar-item w3-button">Location</a>
+        </div>
     </div>
-  </div>
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="assets/index/DNA_molecules.jpg" alt="Hamburger Catering" width="1600" height="800">
-  <div class="w3-display-middle w3-padding-large">
-    <h1 class="w3-xxxlarge">Gawad Lab</h1>
-  </div>
+    <img class="w3-image" src="assets/index/DNA_molecules.jpg" alt="Hamburger Catering" width="1600" height="800">
+    <div class="w3-display-middle w3-padding-large">
+        <h1 class="w3-xlarge w3-center">Welcome to the</h1>
+        <h1 class="w3-xxxlarge w3-center">Gawad Lab</h1>
+    </div>
 </header>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
+<div class="w3-content" style="max-width:80%">
+    <div id="research">
+        <div class="w3-row w3-padding-64">
+            <h1 class="w3-center">Studying Evolution at Cellular Resolution</h1>
+            <p class="w3-text-grey">Welcome to the Gawad lab! We work at the interface of biotechnology, computational biology, cellular biology, and clinical medicine. We take pride in our ability to think creatively to devise innovative solutions to challenging biological questions. We are focused on studying how the genomes of individual cells evolve when placed under selection pressure, and aim to understand how that genetic diversity contributes to human health and disease.</p>
+        </div>
+        <div class="w3-row w3-padding-64">
+            <div class="w3-third w3-padding-large w3-hide-small">
+                <img class="w3-round w3-image" src="assets/index/research/cancer_clonal_evolution_cropped_350x350.jpg">
+                <h2>Cancer Cloncal Evolution and Treatment Resistance</h2>
+                <p>Cancer genome sequencing studies have shown clonal heterogeneity is the major cause of treatment resistance that ultimately causes cancer to recur. We are now studying the process of clonal evolution while patients are undergoing cancer treatment using single-cell sequencing methods we have developed in the lab. We aim to identify which cancer clonotypes are associated with resistance to specific drugs so we can better understand and predict treatment response.</p>
+            </div>
+            <div class="w3-third w3-padding-large w3-hide-small">
+                <img class="w3-round w3-image"  src="assets/index/research/virulence_350x350.jpg">
+                <h2>The Evolution and Virulence of Human Pathogens</h2>
+                <p>Infectious diseases continue to be one of the major causes of early mortality worldwide. We are using single-cell sequencing methods we have developed to understand how more virulent pathogens emerge from a population of bacteria or viruses. We are also using these methods to more deeply understand how antibiotic resistance develops.</p>
+            </div>
+            <div class="w3-third w3-padding-large w3-hide-small">
+                <img class="w3-round w3-image"  src="assets/index/research/development_of_novel_tools_cropped_350x350.jpg">
+                <h2>Development of Novel Genomics Tools</h2>
+                <p>Although we have made tremendous progress in our ability to interrogate genomes in the past twenty years, we can still do better. We are continuously thinking about ways to improve how we measure genomic variation within a cell. We are also developing novel computational methods for modeling the evolution of populations of cells using single-cell sequencing data.</p>
+            </div>
+        </div>
+    </div>
+    <div id="software">
+        <div class="w3-row w3-padding-64 w3-center">
+            <h1>Software</h1>
+            <p class="w3-text-grey">Web applications and supporting material for research.</p>
+        </div>
+        <div class="w3-row w3-padding-64 w3-center">
+            <img class="w3-round w3-image"  src="assets/index/software/cell_seek_application.jpg">
+            <h2>Developing Cerebellum</h2>
+            <p>Cell Seek.</p>
+        </div>
+    </div>
+    <div id="publications">
+        <div class="w3-row w3-padding-64 w3-center">
+            <h1 class="w3-center">Publications</h1>
+            <p class="w3-text-grey">A selection of recent publications and preprints.</p>
+        </div>
+        <div class="w3-row w3-padding-64 w3-center">
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/29284596"><img class="w3-round w3-image" src="assets/index/publications/res_disease_detection.png"></a>
+            </div>
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/30063705"><img class="w3-round w3-image" src="assets/index/publications/atoh1_2018_paper.png"></a>
+            </div>
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/30220501"><img class="w3-round w3-image" src="assets/index/publications/cerebellum_2018_paper.png"></a>
+            </div>
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/30245008"><img class="w3-round w3-image" src="assets/index/publications/lc3_phagocytosis_2018.png"></a>
+            </div>
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/31028641"><img class="w3-round w3-image" src="assets/index/publications/sc_genome_sequencing_2019.png"></a>
+            </div>
+        </div>
+        <div class="w3-row w3-padding-64 w3-center">
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/26806412"><img class="w3-round w3-image" src="assets/index/publications/gawad_sc_dna_seq_review.png"></a>
+            </div>
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.biorxiv.org/content/10.1101/117614v1"><img class="w3-round w3-image" src="assets/index/publications/all_diversity.png"></a>
+            </div>
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/29178827"><img class="w3-round w3-image" src="assets/index/publications/mutant_segregation.png"></a>
+            </div>
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/27736885"><img class="w3-round w3-image" src="assets/index/publications/circular_rnas.jpg"></a>
+            </div>
+            <div class="w3-col s2 w3-padding-small w3-hide-small">
+                <a href="https://www.biorxiv.org/content/10.1101/2020.11.20.391961v2"><img class="w3-round w3-image" src="assets/index/publications/primary_template_directed_amplification.png"></a>
+            </div>
+        </div>
+    </div>
+    <div id="team">
+    </div>
+    <div id="location">
+    </div>
+    <div id="software">
+    </div>
   
   <!-- Menu Section -->
   <div class="w3-row w3-padding-64" id="menu">
@@ -49,22 +132,6 @@
       <h1 class="w3-center">Our Menu</h1><br>
       <h4>Bread Basket</h4>
       <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-    
-      <h4>Honey Almond Granola with Fruits</h4>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-    
-      <h4>Belgian Waffle</h4>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-    
-      <h4>Scrambled eggs</h4>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h4>Blueberry Pancakes</h4>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
-    </div>
-    
-    <div class="w3-col l6 w3-padding-large">
-      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
     </div>
   </div>
   
