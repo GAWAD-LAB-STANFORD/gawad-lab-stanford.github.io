@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="w3_styles_2.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="assets/lab_logo_favicon.ico" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500&display=swap" rel="stylesheet"> 
 	<meta property="og:title" content="Gawad Lab Website" />
@@ -21,10 +22,10 @@
 <body>
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:1px;">
+    <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:1px;">
         <a href="#home" class="w3-bar-item w3-button">Stanford</a>
         <!-- Right-sided navbar links. Hide them on small screens -->
-        <div class="w3-right w3-hide-small">
+        <div class="w3-right">
             <a href="#research" class="w3-bar-item w3-button">Research</a>
             <a href="#software" class="w3-bar-item w3-button">Software</a>
             <a href="#publications" class="w3-bar-item w3-button">Publications</a>
@@ -38,30 +39,30 @@
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
     <img class="w3-image" src="assets/index/DNA_molecules.jpg" alt="Hamburger Catering" width="1600" height="800">
     <div class="w3-display-middle w3-padding-large">
-        <h1 class="w3-xlarge w3-center">Welcome to the</h1>
-        <h1 class="w3-xxxlarge w3-center">Gawad Lab</h1>
+        <h1 class="w3-xlarge w3-center" style="color: white">Welcome to the</h1>
+        <h1 class="w3-xxxlarge w3-center" style="color: white">Gawad Lab</h1>
     </div>
 </header>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:80%">
+<div class="w3-content" style="max-width: 1000px">
     <div id="research">
         <div class="w3-row w3-padding-64">
             <h1 class="w3-center">Studying Evolution at Cellular Resolution</h1>
             <p class="w3-text-grey">Welcome to the Gawad lab! We work at the interface of biotechnology, computational biology, cellular biology, and clinical medicine. We take pride in our ability to think creatively to devise innovative solutions to challenging biological questions. We are focused on studying how the genomes of individual cells evolve when placed under selection pressure, and aim to understand how that genetic diversity contributes to human health and disease.</p>
         </div>
         <div class="w3-row w3-padding-64">
-            <div class="w3-third w3-padding-large w3-hide-small">
+            <div class="w3-third w3-padding-large">
                 <img class="w3-round w3-image" src="assets/index/research/cancer_clonal_evolution_cropped_350x350.jpg">
                 <h2>Cancer Cloncal Evolution and Treatment Resistance</h2>
                 <p>Cancer genome sequencing studies have shown clonal heterogeneity is the major cause of treatment resistance that ultimately causes cancer to recur. We are now studying the process of clonal evolution while patients are undergoing cancer treatment using single-cell sequencing methods we have developed in the lab. We aim to identify which cancer clonotypes are associated with resistance to specific drugs so we can better understand and predict treatment response.</p>
             </div>
-            <div class="w3-third w3-padding-large w3-hide-small">
+            <div class="w3-third w3-padding-large">
                 <img class="w3-round w3-image"  src="assets/index/research/virulence_350x350.jpg">
                 <h2>The Evolution and Virulence of Human Pathogens</h2>
                 <p>Infectious diseases continue to be one of the major causes of early mortality worldwide. We are using single-cell sequencing methods we have developed to understand how more virulent pathogens emerge from a population of bacteria or viruses. We are also using these methods to more deeply understand how antibiotic resistance develops.</p>
             </div>
-            <div class="w3-third w3-padding-large w3-hide-small">
+            <div class="w3-third w3-padding-large">
                 <img class="w3-round w3-image"  src="assets/index/research/development_of_novel_tools_cropped_350x350.jpg">
                 <h2>Development of Novel Genomics Tools</h2>
                 <p>Although we have made tremendous progress in our ability to interrogate genomes in the past twenty years, we can still do better. We are continuously thinking about ways to improve how we measure genomic variation within a cell. We are also developing novel computational methods for modeling the evolution of populations of cells using single-cell sequencing data.</p>
@@ -74,7 +75,7 @@
             <p class="w3-text-grey">Web applications and supporting material for research.</p>
         </div>
         <div class="w3-row w3-padding-64 w3-center">
-            <img class="w3-round w3-image"  src="assets/index/software/cell_seek_application.jpg">
+            <img class="center"  src="assets/index/software/cell_seek_application.jpg">
             <h2>Developing Cerebellum</h2>
             <p>Cell Seek.</p>
         </div>
@@ -85,55 +86,197 @@
             <p class="w3-text-grey">A selection of recent publications and preprints.</p>
         </div>
         <div class="w3-row w3-padding-64 w3-center">
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/29284596"><img class="w3-round w3-image" src="assets/index/publications/res_disease_detection.png"></a>
             </div>
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/30063705"><img class="w3-round w3-image" src="assets/index/publications/atoh1_2018_paper.png"></a>
             </div>
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/30220501"><img class="w3-round w3-image" src="assets/index/publications/cerebellum_2018_paper.png"></a>
             </div>
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/30245008"><img class="w3-round w3-image" src="assets/index/publications/lc3_phagocytosis_2018.png"></a>
             </div>
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/31028641"><img class="w3-round w3-image" src="assets/index/publications/sc_genome_sequencing_2019.png"></a>
             </div>
         </div>
         <div class="w3-row w3-padding-64 w3-center">
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/26806412"><img class="w3-round w3-image" src="assets/index/publications/gawad_sc_dna_seq_review.png"></a>
             </div>
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.biorxiv.org/content/10.1101/117614v1"><img class="w3-round w3-image" src="assets/index/publications/all_diversity.png"></a>
             </div>
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/29178827"><img class="w3-round w3-image" src="assets/index/publications/mutant_segregation.png"></a>
             </div>
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/27736885"><img class="w3-round w3-image" src="assets/index/publications/circular_rnas.jpg"></a>
             </div>
-            <div class="w3-col s2 w3-padding-small w3-hide-small">
+            <div class="w3-col fifths w3-padding-small">
                 <a href="https://www.biorxiv.org/content/10.1101/2020.11.20.391961v2"><img class="w3-round w3-image" src="assets/index/publications/primary_template_directed_amplification.png"></a>
             </div>
         </div>
     </div>
     <div id="team">
+        <div class="w3-row w3-padding-64 w3-center">
+            <h1 class="w3-center">Our Team</h1>
+        </div>
+        <div class="w3-row w3-padding-64 w3-center">
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/chuck_headshot_g225x225_r72x72.jpg">
+                <h2>Charles Gawad</h2>
+                <p>Lead Investigator</p>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:cgawad@stanford.edu"><i class="fa fa-envelope"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/charles-gawad-13031836"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/veronica_headshot_g225x225_r72x72.jpg">
+                <h2>Veronica Gonzalez-Pena</h2>
+                <p>Research Scientist</p>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:gonzalez-pena@stanford.edu"><i class="fa fa-envelope"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/veronicagonzalezphd"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/yakun_headshot_g225x225_r72x72.jpg">
+                <h2>Yakun Pang</h2>
+                <p>Postdoctoral Fellow</p>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:yakun@stanford.edu"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="w3-row w3-padding-64 w3-center">
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/yuntao_headshot.jpg">
+                <h2>Yuntao Xia</h2>
+                <p>Postdoctoral Fellow</p>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:cgawad@stanford.edu"><i class="fa fa-envelope"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:yuntaox@stanford.edu"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/david_klein_headshot_g225x225_r72x72.jpg">
+                <h2>David Klein</h2>
+                <p>Research Data Analyst</p>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:david-klein@stanford.edu"><i class="fa fa-envelope"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://linkedin.com/in/kleinjdavid"><i class="fa fa-linkedin"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/charles-gawad-13031836"><i class="fa fa-linkedin"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://github.com/KEYS248"><i class="fa fa-github"></i></a>
+            </div>
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/vibhu_agarwal_headshot.jpg">
+                <h2>Vibhu Agarwal</h2>
+                <p>Research Assistant</p>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:vibhua@stanford.edu"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="w3-row w3-padding-64 w3-center">
+            <h1 class="w3-center">Lab Mascots</h1>
+        </div>
+        <div class="w3-row w3-padding-64 w3-center">
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/ripley_headshot_g225x225_r72x72.jpg">
+                <h2>Ripley</h2>
+            </div>
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/tesla_headshot_g225x225_r72x72.jpg">
+                <h2>Tesla</h2>
+            </div>
+            <div class="w3-col w3-third w3-padding-small">
+                <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/momo_outside.png">
+                <h2>Momo</h2>
+            </div>
+        </div>
+        <div class="w3-row w3-center">
+            <h1 class="w3-center">Lab Alumni</h1>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small"><h2>Name</h2></div>
+            <div class="w3-col fifths w3-padding-small"><h2>Former Position</h2></div>
+            <div class="w3-col fifths w3-padding-small"><h2>Date</h2></div>
+            <div class="w3-col fifths w3-padding-small"><h2>Current Position</h2></div>
+            <div class="w3-col fifths w3-padding-small"><h2>Current Location</h2></div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Sivaraman Natarajan</div>
+            <div class="w3-col fifths w3-padding-small">Postdoctoral Fellow</div>
+            <div class="w3-col fifths w3-padding-small">2015-2019</div>
+            <div class="w3-col fifths w3-padding-small">Staff Scientist</div>
+            <div class="w3-col fifths w3-padding-small">St. Jude Children's Research Hospital</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Rob Carter</div>
+            <div class="w3-col fifths w3-padding-small">Bioinformatics Scientist</div>
+            <div class="w3-col fifths w3-padding-small">2016-2019</div>
+            <div class="w3-col fifths w3-padding-small">Associate Director of Bioinformatics</div>
+            <div class="w3-col fifths w3-padding-small">ClariGene</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Anju Cherian </div>
+            <div class="w3-col fifths w3-padding-small">Research Technologist</div>
+            <div class="w3-col fifths w3-padding-small">2019</div>
+            <div class="w3-col fifths w3-padding-small">Research Technologist</div>
+            <div class="w3-col fifths w3-padding-small">St. Jude Children's Research Hospital</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Ousman Mahmud</div>
+            <div class="w3-col fifths w3-padding-small">Postdoctoral Fellow</div>
+            <div class="w3-col fifths w3-padding-small">2017-2018</div>
+            <div class="w3-col fifths w3-padding-small">Genomics Bioinformatician</div>
+            <div class="w3-col fifths w3-padding-small">IBM Watson Health</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Yuki Inaba</div>
+            <div class="w3-col fifths w3-padding-small">Research Technologist</div>
+            <div class="w3-col fifths w3-padding-small">2017-2018</div>
+            <div class="w3-col fifths w3-padding-small">MD, PhD Student</div>
+            <div class="w3-col fifths w3-padding-small">University of Texas Southwestern</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Morgan Carter</div>
+            <div class="w3-col fifths w3-padding-small ">Pediatric Oncology Education Program</div>
+            <div class="w3-col fifths w3-padding-small">2016</div>
+            <div class="w3-col fifths w3-padding-small">Predoctoral Trainee</div>
+            <div class="w3-col fifths w3-padding-small">National Institutes of Health</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Ian Nykaza</div>
+            <div class="w3-col fifths w3-padding-small">Pediatric Oncology Education Program</div>
+            <div class="w3-col fifths w3-padding-small">2017</div>
+            <div class="w3-col fifths w3-padding-small">Research Technologist</div>
+            <div class="w3-col fifths w3-padding-small">University of San Francisco (UCSF)</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Sarah Youssef</div>
+            <div class="w3-col fifths w3-padding-small">MSc Student (Fullbright Scholar)</div>
+            <div class="w3-col fifths w3-padding-small">2016-2018</div>
+            <div class="w3-col fifths w3-padding-small">Clinical Pharmacist</div>
+            <div class="w3-col fifths w3-padding-small">57357 Pediatric Cancer Hospital</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Greg Schwing</div>
+            <div class="w3-col fifths w3-padding-small">Pediatric Oncology Education Program</div>
+            <div class="w3-col fifths w3-padding-small">2015</div>
+            <div class="w3-col fifths w3-padding-small">MD, PhD Student</div>
+            <div class="w3-col fifths w3-padding-small">Wayne State University</div>
+        </div>
+        <div class="w3-row w3-center">
+            <div class="w3-col fifths w3-padding-small">Shelby Lane</div>
+            <div class="w3-col fifths w3-padding-small">Medical Student Researcher</div>
+            <div class="w3-col fifths w3-padding-small">2015</div>
+            <div class="w3-col fifths w3-padding-small">MD Student</div>
+            <div class="w3-col fifths w3-padding-small">University of Tennessee</div>
+        </div>
     </div>
     <div id="location">
+        <div class="w3-row w3-padding-64 w3-center">
+            <h1 class="w3-center">Location</h1>
+            <p>Our lab is located in the new, state-of-the-art Biomedical Innovations Building at Stanford University.</p>
+            <img class="center" src="assets/index/location/biomedical_innovations_building.jpg">
+        </div>
     </div>
     <div id="software">
     </div>
-  
-  <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Our Menu</h1><br>
-      <h4>Bread Basket</h4>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-    </div>
-  </div>
   
 <!-- End page content -->
 </div>
