@@ -4,7 +4,7 @@
 	<title>Gawad Lab Website</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="w3_styles_2.css" rel="stylesheet" type="text/css">
+	<link href="styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="assets/lab_logo_favicon.ico" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500&display=swap" rel="stylesheet"> 
@@ -14,11 +14,10 @@
 </head>
 
 <body>
-<!-- Navbar (sit on top) -->
+<!-- Navbar -->
 <div class="w3-top">
     <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:1px;">
-        <a href="#home" class="w3-bar-item w3-button">Stanford</a>
-        <!-- Right-sided navbar links. Hide them on small screens -->
+        <a href="#home" class="w3-bar-item w3-button">Gawad Lab @ Stanford</a>
         <div class="w3-right">
             <a href="#research" class="w3-bar-item w3-button">Research</a>
             <a href="#software" class="w3-bar-item w3-button">Software</a>
@@ -31,16 +30,20 @@
 </div>
 
 <!-- Header -->
-<header id="home" class="w3-display-container w3-content w3-wide" style="max-width: 1600px">
-    <img src="assets/index/DNA_molecules.jpg" alt="Hamburger Catering" style="width: 100%">
-    <div class="w3-display-middle">
-        <h2 class="header w3-center" style="color: white">Welcome to the</h2>
-        <h1 class="header w3-center" style="color: white">Gawad Lab</h1>
+<header id="home"> 
+    <div class="w3-display-container w3-wide banner">
+        <img src="assets/index/DNA_molecules.jpg" style="width: 1600px; height: 500px; object-fit: cover">
+        <div class="w3-display-middle">
+            <h2 class="header w3-center" style="color: white">Welcome to the</h2>
+            <h1 class="header w3-center" style="color: white">Gawad Lab</h1>
+        </div>
     </div>
 </header>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width: 1000px">
+    
+    <!-- Research -->
     <section id="research">
         <div class="row w3-padding">
             <h1 class="w3-center">Research</h1>
@@ -65,10 +68,12 @@
             </div>
         </div>
     </section>
+    
+    <!-- Software -->
     <section id="software">
         <div class="row w3-center">
             <h1>Software</h1>
-            <p class="w3-text-grey">Web applications and supporting material for research.</p>
+            <p>Web applications and supporting material for research.</p>
         </div>
         <div class="row w3-padding w3-center">
             <a class="portfolio-link" href="http://cellseek.stjude.org/cerebellum" target="_blank"><img class="center"  src="assets/index/software/cell_seek_application.jpg" style="width: 60%"></a>
@@ -76,10 +81,12 @@
             <p>Cell Seek</p>
         </div>
     </section>
+    
+    <!-- Publications -->
     <section id="publications">
         <div class="row w3-padding w3-center">
             <h1 class="w3-center">Publications</h1>
-            <p class="w3-text-grey">A selection of recent publications and preprints.</p>
+            <p>A selection of recent publications and preprints.</p>
         </div>
         <div class="row w3-padding w3-center">
             <div class="col-5 w3-padding-small">
@@ -116,6 +123,8 @@
             </div>
         </div>
     </section>
+    
+    <!-- Team -->
     <section id="team">
         <div class="row w3-padding w3-center">
             <h1 class="w3-center">Our Team</h1>
@@ -126,14 +135,14 @@
                 <h2>Charles Gawad</h2>
                 <p>Lead Investigator</p>
                 <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:cgawad@stanford.edu"><i class="fa fa-envelope"></i></a>
-                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/charles-gawad-13031836"><i class="fa fa-linkedin"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/charles-gawad-13031836" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
             <div class="w3-col col-3 w3-padding-small">
                 <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/veronica_headshot_g225x225_r72x72.jpg">
                 <h2>Veronica Gonzalez-Pena</h2>
                 <p>Research Scientist</p>
                 <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:gonzalez-pena@stanford.edu"><i class="fa fa-envelope"></i></a>
-                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/veronicagonzalezphd"><i class="fa fa-linkedin"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/veronicagonzalezphd" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
             <div class="w3-col col-3 w3-padding-small">
                 <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/yakun_headshot_g225x225_r72x72.jpg">
@@ -154,8 +163,8 @@
                 <h2>David Klein</h2>
                 <p>Research Data Analyst</p>
                 <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:david-klein@stanford.edu"><i class="fa fa-envelope"></i></a>
-                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://linkedin.com/in/kleinjdavid"><i class="fa fa-linkedin"></i></a>
-                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://github.com/KEYS248"><i class="fa fa-github"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://linkedin.com/in/kleinjdavid" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://github.com/KEYS248" target="_blank"><i class="fa fa-github"></i></a>
             </div>
             <div class="w3-col col-3 w3-padding-small">
                 <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/vibhu_agarwal_headshot.jpg">
@@ -262,6 +271,8 @@
             <div class="col-5 table-padding">University of Tennessee</div>
         </div>
     </section>
+    
+    <!-- Location -->
     <section id="location">
         <div class="row w3-padding w3-center">
             <h1 class="w3-center">Location</h1>
@@ -269,29 +280,23 @@
             <img class="center" src="assets/index/location/biomedical_innovations_building.jpg" style="width: 100%">
         </div>
     </section>
+    
+    <!-- Funding -->
     <section id="funding">
         <h1 class="w3-center">Funding</h1>
         <div class="row-centered">
-            <div class="col-3 w3-padding"><img class="logos" src="assets/index/logos/bwf_logo.png"></div>
-            <div class="col-3 w3-padding"><img class="logos" src="assets/index/logos/new_innovator_award.png"></div>
-            <div class="col-3 w3-padding"><img class="logos" src="assets/index/logos/how_logo.jpg"></div>
+            <div class="col-3 w3-padding"><img class="logos" src="assets/index/funding/bwf_logo.png"></div>
+            <div class="col-3 w3-padding"><img class="logos" src="assets/index/funding/new_innovator_award.png"></div>
+            <div class="col-3 w3-padding"><img class="logos" src="assets/index/funding/how_logo.jpg"></div>
         </div>
         <div class="row-centered">
-            <div class="col-3 w3-padding"><img class="logos" src="assets/index/logos/ash.png"></div>
-            <div class="col-3 w3-padding"><img class="logos" src="assets/index/logos/lls.png"></div>
-            <div class="col-3 w3-padding"><img class="logos" src="assets/index/logos/ALSFsquare.jpg"></div>
+            <div class="col-3 w3-padding"><img class="logos" src="assets/index/funding/ash.png"></div>
+            <div class="col-3 w3-padding"><img class="logos" src="assets/index/funding/lls.png"></div>
+            <div class="col-3 w3-padding"><img class="logos" src="assets/index/funding/ALSFsquare.jpg"></div>
         </div>
         <div class="row-centered">
-            <div class="col-2 w3-padding"><img class="logos" src="assets/index/logos/stanford-logo-vector-png--1200.png"></div>
-            <div class="col-2 w3-padding"><img class="logos" src="assets/index/logos/cz_biohub_logo_2.png"></div>
-        </div>
-        <div class="row w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px">
-            <div class="w3-display-left w3-half">
-                <img class="logos" src="assets/index/logos/stanford-logo-vector-png--1200.png">
-            </div>
-            <div class="w3-display-right w3-half">
-                <img class="logos" src="assets/index/logos/cz_biohub_logo.png">
-            </div>
+            <div class="col-2 w3-padding"><img class="logos" src="assets/index/funding/stanford-logo-vector-png--1200.png"></div>
+            <div class="col-2 w3-padding"><img class="logos" src="assets/index/funding/cz_biohub_logo_2.png"></div>
         </div>
     </section>
   
@@ -299,11 +304,23 @@
 </div>
 
 <!-- Footer -->
-<footer class="w3-center">
-    <div class="w3-display-container w3-content w3-wide" style="max-width: 1600px; height: 200px">
-        <img src="assets/index/logos/cancer_cells_rect_gray_low_exposure.jpg" style="width: 1600px; height: 200px; object-fit: cover">
+<footer>
+    <div class="w3-display-container banner">
+        <img src="assets/index/cancer_cells_rect_gray_low_exposure.jpg" style="width: 1600px; height: 200px; object-fit: cover">
         <div class="w3-display-middle">
-            <p style="color: white">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+            <div class="col-3">
+                <p class="banner">Copyright © Stanford Medicine 2020</p>
+            </div>
+            <div class="col-3">
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:cgawad@stanford.edu"><i class="fa fa-envelope"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/charles-gawad-13031836/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://github.com/GAWAD-LAB-STANFORD" target="_blank"><i class="fa fa-github"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://scholar.google.com/citations?hl=en&user=Nbk0c_oAAAAJ" target="_blank"><img style="width: 15px" src="assets/google_scholar_white.png"></a>
+                <p class="banner"><a href="https://www.stanford.edu/site/privacy/" target="_blank">Privacy Policy</a> - <a href="https://www.stanford.edu/site/terms/" target="_blank">Terms of Use</a></p>
+            </div>
+            <div class="col-3">
+                <p class="banner">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank">w3.css</a></p>
+            </div>
         </div>
     </div>
 </footer>
