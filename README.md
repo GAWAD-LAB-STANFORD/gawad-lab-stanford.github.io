@@ -1,5 +1,5 @@
 Lab website for the Gawad lab
 
-[gawad-lab-stanford.github.io](http://gawad-lab-stanford.github.io)
-and
-[gawadlab.com](https://gawadlab.com/)
+- [gawad-lab-stanford.github.io](http://gawad-lab-stanford.github.io)
+
+- [gawadlab.com](https://gawadlab.com/)
