@@ -23,10 +23,10 @@
         <a href="#home" class="w3-bar-item w3-button">Gawad Lab <img src="assets/lab_logo_trim.png" style="width:30px"></a>
         <div class="w3-right">
             <a href="#research" class="w3-bar-item w3-button">Research</a>
-            <a href="#software" class="w3-bar-item w3-button">Software</a>
             <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+            <a href="#resources" class="w3-bar-item w3-button">Resources</a>
             <a href="#team" class="w3-bar-item w3-button">Team</a>
-            <a href="#location" class="w3-bar-item w3-button">Location</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
             <a href="#funding" class="w3-bar-item w3-button">Funding</a>
         </div>
     </div>
@@ -45,15 +45,13 @@
 </header>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width: 1000px">
+<main role="main" class="w3-content" style="max-width: 1200px">
     
     <!-- Research -->
     <section id="research">
-        <div class="row w3-padding w3-center">
-            <h1 class="w3-center">Research</h1>
-            <h2 class="w3-center">Studying Evolution at Cellular Resolution</h2>
-            <p>Welcome to the Gawad lab! We work at the interface of biotechnology, computational biology, cellular biology, and clinical medicine. We take pride in our ability to think creatively to devise innovative solutions to challenging biological questions. We are focused on studying how the genomes of individual cells evolve when placed under selection pressure, and aim to understand how that genetic diversity contributes to human health and disease.</p>
-        </div>
+        <h1 class="w3-center">Research</h1>
+        <h2 class="w3-center">Studying Evolution at Cellular Resolution</h2>
+        <p class="w3-center">Welcome to the Gawad lab! We work at the interface of biotechnology, computational biology, cellular biology, and clinical medicine. We take pride in our ability to think creatively to devise innovative solutions to challenging biological questions. We are focused on studying how the genomes of individual cells evolve when placed under selection pressure, and aim to understand how that genetic diversity contributes to human health and disease.</p>
         <div class="row w3-padding">
             <div class="col-3 w3-padding">
                 <img class="w3-round" src="assets/index/research/cancer_clonal_evolution_cropped_350x350.jpg">
@@ -73,25 +71,10 @@
         </div>
     </section>
     
-    <!-- Software -->
-    <section id="software">
-        <div class="row w3-center">
-            <h1>Software</h1>
-            <p>Web applications and supporting material for research</p>
-        </div>
-        <div class="row w3-padding w3-center">
-            <a class="portfolio-link" href="http://cellseek.stjude.org/cerebellum" target="_blank"><img class="center"  src="assets/index/software/cell_seek_application.jpg" style="width: 60%"></a>
-            <h2>Developing Cerebellum</h2>
-            <p>Cell Seek</p>
-        </div>
-    </section>
-    
     <!-- Publications -->
     <section id="publications">
-        <div class="row w3-padding w3-center">
-            <h1 class="w3-center">Publications</h1>
-            <p>A selection of recent publications and preprints</p>
-        </div>
+        <h1 class="w3-center">Publications</h1>
+        <p class="w3-center">A selection of recent publications and preprints</p>
         <div class="row w3-padding w3-center">
             <div class="col-5 w3-padding-small">
                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/29284596" target="_blank"><img class="w3-round" src="assets/index/publications/res_disease_detection.png"></a>
@@ -128,11 +111,27 @@
         </div>
     </section>
     
+    <!-- Software -->
+    <section id="resources">
+        <h1 class="w3-center">Resources</h1>
+        <div class="row-centered w3-padding w3-center">
+            <div class="col-2 w3-padding">
+                <h2>Developing Cerebellum</h2>
+                <p>Cell Seek</p>
+                <a class="portfolio-link" href="http://cellseek.stjude.org/cerebellum" target="_blank"><img class="center"  src="assets/index/software/cell_seek_application.jpg" style="width: 100%"></a>
+            </div>
+            <div class="col-2 w3-padding">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank">Guide to Computational Project Organization</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
     <!-- Team -->
     <section id="team">
-        <div class="row w3-padding w3-center">
-            <h1 class="w3-center">Our Team</h1>
-        </div>
+        <h1 class="w3-center">Our Team</h1>
         <div class="row w3-padding w3-center">
             <div class="w3-col col-3 w3-padding-small">
                 <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/chuck_headshot_g225x225_r72x72.jpg">
@@ -183,9 +182,7 @@
                 <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://scholar.google.com/citations?hl=en&user=BcFXa_wAAAAJ" target="_blank"><img style="width: 15px" src="assets/google_scholar_white.png"></a>
             </div>
         </div>
-        <div class="row w3-padding w3-center">
-            <h1 class="w3-center">Lab Mascots</h1>
-        </div>
+        <h2 class="w3-center">Lab Mascots</h2>
         <div class="row w3-padding w3-center">
             <div class="w3-col col-3 w3-padding-small">
                 <img class="w3-circle w3-margin-bottom team-photo" src="assets/index/team/ripley_headshot_g225x225_r72x72.jpg">
@@ -200,9 +197,7 @@
                 <h2>Momo</h2>
             </div>
         </div>
-        <div class="row w3-center">
-            <h1 class="w3-center">Lab Alumni</h1>
-        </div>
+        <h2 class="w3-center">Lab Alumni</h2>
         <div class="row w3-center">
             <div class="col-5"><h2>Name</h2></div>
             <div class="col-5"><h2>Former Position</h2></div>
@@ -282,12 +277,36 @@
         </div>
     </section>
     
-    <!-- Location -->
-    <section id="location">
-        <div class="row w3-padding w3-center">
-            <h1 class="w3-center">Location</h1>
-            <p>Our lab is located in the new, state-of-the-art Biomedical Innovations Building at Stanford University</p>
-            <img class="center" src="assets/index/location/biomedical_innovations_building.jpg" style="width: 100%">
+    <!-- Contact -->
+    <section id="contact">
+        <h1 class="w3-center">Contact</h1>
+        <h2 class="w3-center">Join the Lab</h2>
+        <div class="row-centered w3-padding w3-center">
+            <div class="col-2 w3-padding">
+                <img class="center" src="assets/index/location/biomedical_innovations_building.jpg" style="width: 100%">
+                <p>Our lab is located in the new, state-of-the-art Biomedical Innovations Building at Stanford University</p>
+            </div>
+            <div class="col-2 w3-padding">
+                <p>New applicants to the lab are welcome!</p>
+                <p>Prospective <strong>collaborative partners</strong> should email our PI using the email below. We are always excited for opportunities for intellectual collaboration.</p>
+                <p>Prospective <strong>postdoctoral applicants</strong> should email their CV, a paragraph explaining your research interest, and a paragraph explaining why you are interesting in our lab to our PI using the email below.</p>
+                <p>Prospective <strong>graduate students</strong> should apply to the Stanford Biomedical Ph.D. programs at <a href="https://med.stanford.edu/education/phd-programs.html" target="_blank">med.stanford.edu/education/phd-programs</a></p>
+                <!--<p>Prospective <strong>undergraduate applicants</strong> should email our PI as we occasionally have positions available.</p>-->
+            </div>
+        </div>
+        <h2 class="w3-center">Location and Email</h2>
+        <div class="row-centered w3-padding w3-center">
+            <div class="col-2 w3-padding">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.150233983329!2d-122.17649763755674!3d37.43355557046093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fa52ba51d58eb%3A0xe8daaea65a01418c!2sBiomedical%20Innovations%20Building!5e0!3m2!1sen!2sus!4v1609799782735!5m2!1sen!2sus" width="100%" height="300px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-2 w3-padding">
+                <p><strong>Charles Gawad, M.D. Ph.D.</strong><br>Assistant Professor<br>Stanford Medicine<br>Department of Pediatrics<br>240 Pasteur Dr, Palo Alto, CA 94304</p>
+                <p>Email: <a href="mailto:cgawad@stanford.edu">cgawad@stanford.edu</a></p>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:cgawad@stanford.edu"><i class="fa fa-envelope"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/charles-gawad-13031836/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://github.com/GAWAD-LAB-STANFORD" target="_blank"><i class="fa fa-github"></i></a>
+                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://scholar.google.com/citations?hl=en&user=Nbk0c_oAAAAJ" target="_blank"><img style="width: 15px" src="assets/google_scholar_white.png"></a>
+            </div>
         </div>
     </section>
     
@@ -311,21 +330,17 @@
     </section>
   
 <!-- End page content -->
-</div>
+</main>
 
 <!-- Footer -->
 <footer>
     <div class="w3-display-container banner">
-        <img src="assets/index/cancer_cells_rect_gray_low_exposure.jpg" style="width: 1600px; height: 200px; object-fit: cover">
+        <img src="assets/index/cancer_cells_rect_gray_low_exposure.jpg" style="width: 1600px; height: 100px; object-fit: cover">
         <div class="w3-display-middle">
             <div class="col-3">
                 <p class="banner">Copyright © Stanford Medicine 2021</p>
             </div>
             <div class="col-3">
-                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="mailto:cgawad@stanford.edu"><i class="fa fa-envelope"></i></a>
-                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://www.linkedin.com/in/charles-gawad-13031836/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://github.com/GAWAD-LAB-STANFORD" target="_blank"><i class="fa fa-github"></i></a>
-                <a class="w3-black w3-circle w3-button w3-padding-small w3-large" href="https://scholar.google.com/citations?hl=en&user=Nbk0c_oAAAAJ" target="_blank"><img style="width: 15px" src="assets/google_scholar_white.png"></a>
                 <p class="banner"><a href="https://www.stanford.edu/site/privacy/" target="_blank">Privacy Policy</a> - <a href="https://www.stanford.edu/site/terms/" target="_blank">Terms of Use</a></p>
             </div>
             <div class="col-3">

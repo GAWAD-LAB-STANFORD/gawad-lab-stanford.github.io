@@ -324,3 +324,11 @@ img.logos {
     width: 100%;
     vertical-align: middle;
 }
+
+/* lists */
+ul {
+    list-style: square
+}
+li {
+    padding: 5px
+}
